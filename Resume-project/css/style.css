@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f7fa;
+    padding: 40px;
+    font-family: Montserrat;
+}
+
+.wrapper{
+    background-color: #ffffff;
+    display: flex;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+    background-color: #1e2939;
+    color: #ffffff;
+    width: 370px;
+    padding: 40px 0;
+}
+
+.my-photo{
+    width: 370px;
+
+}
+
+.side-block{
+    margin: 60px 40px 0 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.side-block h3{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.side-block a{
+    color: #ffffff;
+    font-family: Montserrat;
+    opacity: 0.5;
+}
+
+.side-block .type{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.side-block ul li{
+    margin-left: 15px;
+    color: #ff6b08;
+}
+
+.side-block ul li span{
+    color:white;
+}
+
+
+.main-container{
+    padding: 110px 90px;
+    color: #000000;
+    line-height: 24px;
+}
+
+.main-container p{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.main-container h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+}
+
+.main-container h2{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.main-container h3{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.main-container h4{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.main-container h4 span{
+    color: #ff6b08;
+}
+
+.main-container .container .date{
+    font-size: 12px; 
+    color: #a8a8a8;
+    padding-right: 7px;
+    border-right: 1px solid black;
+}
+
+.main-container .container .country{
+    font-size: 12px; 
+    color: #a8a8a8;
+    padding-left: 7px;
+}
+
+.main-container .container{
+    margin-top: 55px;
+}
+
+.main-container .container ul,
+.main-container .container ol{
+    margin-bottom: 25px;
+}
+
+
+
+.main-container .container ul li{
+    margin-left: 15px;
+    color: #595959;
+    font-weight: 400;
+}
+
+.main-container .container ol li{
+    margin-left: 15px;
+    color: #595959;
+}
+
+.container ol.projects{
+    overflow: hidden;
+    min-width: 400px;
+    margin-right: 150px;
+    font-weight: 700;
+}
+
+.container ol.projects li::before{
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    font-weight: 400;
+    content: ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+                ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+                ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+}
+
+/*Назву елемента замальовуємо фоном списку, щоб перекрити крапочки*/
+.container ol.projects li a {
+    padding-left: 0.33em;
+    background: white;
+    color: #595959;
+    font-weight: 400;
+}
+
+/*Опис елемента замальовуємо фоном списку, щоб перекрити крапочки*/
+.container ol.projects li span {
+    float: right;
+    padding-left: 0.33em;
+    background: white;
+    font-weight: 400;
+}
