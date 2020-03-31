@@ -14,6 +14,8 @@ body{
     display: flex;
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
     min-width: 1300px;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 .sidebar {
@@ -64,48 +66,41 @@ body{
     color:white;
 }
 
-
+/*Стилі лівого блоку class="main-container"*/
 .main-container{
     padding: 110px 90px;
     color: #000000;
     line-height: 24px;
 }
-
 .main-container p{
     color: #595959;
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 10px;
 }
-
 .main-container h1{
     font-size: 45px;
     font-weight: 700;
     line-height: 89px;
 }
-
 .main-container h2{
     font-size: 14px;
     font-weight: 700;
 }
-
 .main-container h3{
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 5px;
 }
-
 .main-container h4{
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 7px;
     margin-top: 15px;
 }
-
 .main-container h4 span{
     color: #ff6b08;
 }
-
 .main-container .container .date{
     font-size: 12px; 
     color: #a8a8a8;
@@ -114,7 +109,6 @@ body{
     margin-top: 7px;
     margin-bottom: 7px;
 }
-
 .main-container .container .country{
     font-size: 12px; 
     color: #a8a8a8;
@@ -157,10 +151,9 @@ body{
     float: left;
     width: 0;
     white-space: nowrap;
-    font-weight: 400;
-    content: ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
-                ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
-                ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+    font-weight: 100;
+    color: #595959;
+    content: "............................................................................................................................................................................................"
 }
 
 /*Назву елемента замальовуємо фоном списку, щоб перекрити крапочки*/
