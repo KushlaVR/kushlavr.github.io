@@ -143,7 +143,7 @@ body{
 .container ol.projects{
     overflow: hidden;
     min-width: 400px;
-    max-width: 400px;
+    max-width: 800px;
     font-weight: 700;
 }
 
